@@ -1,0 +1,27 @@
+body {
+  background-color: #36363F;
+  margin: 0;
+}
+html {
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #484C54 #00000000;
+}
+
+html::-webkit-scrollbar {
+  width: 5px;
+}
+
+html::-webkit-scrollbar-track{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+html::-webkit-scrollbar-thumb{
+  border-radius: 5px;
+}
+
+@font-face {
+  font-family: 'Alata';
+  src: url('assets/fonts/Alata-regular.ttf');
+}
